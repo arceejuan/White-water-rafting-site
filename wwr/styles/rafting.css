@@ -41,7 +41,7 @@ nav img{
 }
 
 nav a{
-    display: block;
+    display: flex;
     color: #283618;
     text-decoration: none;
     padding: 1rem;
@@ -54,15 +54,6 @@ nav a:link, nav a:visited{
 nav a:hover{
     color: #606C38;
     background-color: #DDA15E;
-}
-
-nav ul{
-    list-style: none;
-    display: flex;
-}
-
-nav li{
-    margin-right: 15px;
 }
 
 h1{
