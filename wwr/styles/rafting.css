@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 :root {
-    --primary-color: #283618
-    --secondary-color: #FEFAE0
-    --accent1-color: #DDA15E
-    --accent2-color: #bc6c25
+    --primary-color: #283618;
+    --secondary-color: #FEFAE0;
+    --accent1-color: #DDA15E;
+    --accent2-color: #bc6c25;
 
     --heading-font: "Ubuntu", serif;
     --paragraph-font:"Ubuntu", serif;
 
-    --nav-background-color: #fefae0
-    --nav-link-color: #606c38
-    --nav-hover-link-color: #dda15e
-    --nav-hover-background-color: #606C38
+    --nav-background-color: #fefae0;
+    --nav-link-color: #606c38;
+    --nav-hover-link-color: #dda15e;
+    --nav-hover-background-color: #606C38;
 }
 
 body{
