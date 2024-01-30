@@ -79,3 +79,8 @@ header, .grid, footer{
     background-color: #ddd;
     color: #000;
 }
+
+.grid {
+    display:grid;
+    align-items: center;
+}
