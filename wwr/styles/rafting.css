@@ -45,7 +45,6 @@ nav a{
     color: #283618;
     text-decoration: none;
     padding: 1rem;
-    border: 1px solid;
     box-sizing: border-box;
     background-color: #fefae0;
 }
@@ -99,21 +98,24 @@ h1{
 
 footer{
     background-color: #fefae0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
 
 footer p{
-    text-align: center;
-}
-
-footer a{
-    margin: auto;
-    display: inline-block;
+    text-align:center;
+    flex-grow: 1;
 }
 
 footer img{
     width: 30px;
     height: auto;
+
 }
+
+
 .hero{
     position:relative;
 }
