@@ -63,7 +63,7 @@ aside h2{
 }
 
 header, .grid, footer{
-    margin-top: 0 auto;
+    margin: 0 auto;
     border-top: 1px solid #000;
     max-width: 840px;
     display:grid;
