@@ -190,6 +190,11 @@ article img{
    max-width: 300px;
 }
 
+.google-map iframe{
+    width: 600px;
+    height: 400px;
+}
+
 .company-info{
     font-family: Arial, Helvetica, sans-serif;
     color: #283618;
