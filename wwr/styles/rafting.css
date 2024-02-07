@@ -59,7 +59,7 @@ nav a:link, nav a:visited{
 } */
 
 h1{
-    font-family: 'Ubuntu' sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 5em;
     color: #283618;
     text-align: center;
