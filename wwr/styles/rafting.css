@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+
 :root {
     --primary-color: #283618;
     --secondary-color: #FEFAE0;
@@ -22,11 +23,52 @@ body{
 }
 
 header{
-    background-color: #dda15e;
+    /*background-color: #dda15e; */
     padding: 20px;
+    padding-bottom: 60px;
     display: grid;
-    grid-template-columns: auto 1fr;
+   /* grid-template-columns: auto 1fr; */
     align-items: center;
+    z-index: 5;
+    
+}
+
+.header-inner{
+    z-index: 99;
+    background-image: url('images/raftingbg.jpg');
+}
+
+.header-background{
+    z-index: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header-background img{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+    
+}
+
+.background-color{
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 75;
+}
+
+#thumbnail{
+    overflow: hidden;
+}
+
+.thumbnail-img{
+    position: relative;
+    width: 1348px;
+    height: 897.768px;
+    left: 0px;
+    top: -199.384px;
 }
 
 nav{
