@@ -322,21 +322,32 @@ button[type="submit"]:hover {
     font-size: 18px;
 }
 
-.reservation-button button{
-    font-size: 2em;
+.reservation-button{
+    font-size: 1.6em;
     border: none;
     padding: 15px 32px;
-    margin: 4px 2px;
+    margin-bottom: 20px;
     cursor: pointer;
-    width: 70%;
-    margin-left: 15%;
-    margin-right: 15%;
+    width: 25%;
+    text-align: center;
     background-color:#606c38;
     color: whitesmoke;
+    padding-bottom: 20px;
+    margin: 0 auto 20px;
 }
 
-.reservation-button{
+.card-button{
+    font-size: 1.2em;
+    border: none;
+    padding: 25px 32px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    width: 25%;
+    text-align: center;
+    background-color:#606c38;
+    color: whitesmoke;
     padding-bottom: 20px;
+    margin: 0 auto 20px;
 }
 
 .card {
