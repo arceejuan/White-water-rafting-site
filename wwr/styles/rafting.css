@@ -24,7 +24,6 @@ body{
 
 header{
     /*background-color: #dda15e; */
-    padding: auto;
     padding-bottom: 60px;
     display: grid;
    /* grid-template-columns: auto 1fr; */
@@ -318,7 +317,7 @@ button[type="submit"]:hover {
 
 .reservation-content p{
     text-align: center;
-    white-space: wrap;
+    white-space:inherit;
     font-size: 18px;
 }
 
@@ -374,7 +373,6 @@ button[type="submit"]:hover {
     height: 205px;
     overflow: hidden;
     background-color: #000;
-    -webkit-transition: height .3s;
     transition: height .3s
 }
 
@@ -383,8 +381,6 @@ button[type="submit"]:hover {
     opacity: 1;
     -webkit-transition: opacity .3s,-webkit-transform .3s;
     transition: opacity .3s,transform .3s;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
     transform: scale(1);
     width: 100%
 }
@@ -397,7 +393,6 @@ button[type="submit"]:hover {
     position: relative;
     padding: 20px;
     height: 185px;
-    -webkit-transition: height .3s;
     transition: height .3s
 }
 
@@ -429,7 +424,6 @@ button[type="submit"]:hover {
 }
 
 .card:hover .card__title {
-    -webkit-animation: titleBlur .3s;
     animation: titleBlur .3s
 }
 
@@ -440,7 +434,6 @@ button[type="submit"]:hover {
 }
 
 .card:hover .card__subtitle {
-    -webkit-animation: subtitleBlur .3s;
     animation: subtitleBlur .3s
 }
 
@@ -455,21 +448,14 @@ button[type="submit"]:hover {
     color: #666c74;
     font-size: 14px;
     opacity: 0;
-    -webkit-transition: opacity .2s,-webkit-transform .2s;
     transition: opacity .2s,transform .2s;
-    -webkit-transition-delay: 0s;
     transition-delay: 0s;
-    -webkit-transform: translateY(25px);
-    -ms-transform: translateY(25px);
     transform: translateY(25px);
 }
 
 .card:hover .card__description {
     opacity: 1;
-    -webkit-transition-delay: .1s;
     transition-delay: .1s;
-    -webkit-transform: translateY(0);
-    -ms-transform: translateY(0);
     transform: translateY(0)
 }
 
